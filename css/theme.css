@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    display: block;
+    text-align: center;
+    font-family: "Benne", sans-serif;
+    margin-top: 6em;
+    background-color: lavender;
+    
+  }
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+#header-image{
+    width:40vw;
+}
+
+.list{
+      float:right;
+      width: 66.66%;
+      text-align: left;
+      font-size: 20px;
+  }
+
+
+#details:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#video{
+    margin-top: 5em;
+}
+
+
+#email{
+    
+    width: 20%;
+    height: 2rem;
+    padding: 0.25rem 4.75rem;
+    border: 1.5px dotted #ced4da;
+    border-radius: 0.25rem;
+    margin-top: 3em;
+}
+#submit{
+    width:17%;
+    padding: 0.75rem;
+    background: green;
+    color:white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 3em;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.btnh h2{
+    
+    width: 100%;
+    height: 2em;
+}
+.submit1{
+    width:25%;
+    padding: 0.75rem;
+    background: orange;
+    color:black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 3em;
+}
